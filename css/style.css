@@ -1,0 +1,100 @@
+div{
+	display: block;
+}
+
+.left {
+	float: left;
+}
+
+.content {
+	width: 574px;
+	float: left;
+}
+.clear {
+    clear: both;
+}
+
+.menu {
+	height: 1000px;
+	background-color: #DA202C;
+}
+.top {
+	height: 280px;
+	background-color: #DA202C;
+}
+.topmenu {
+	height: 40px;
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+}
+ul {
+	color: white;
+}
+
+li {
+	list-style-type: none;
+}
+
+li a {
+	text-decoration: none;
+	color: white;	
+}
+p a {
+	text-decoration: none;
+	color: white;	
+}
+
+.container {
+	margin: 3px auto;
+	width: 1000px;
+}
+
+body{
+	margin: auto;
+}
+.columns {
+	display: inline-block;
+	width: 574px;
+	clear: both;
+}
+
+.firstColumn {
+	width: 154px;
+	padding: 10px;
+	/*display: inline-block;*/
+	float: left;
+}
+
+.offer {
+	width: 154px;
+	padding: 10px;
+}
+.description {
+	background-color: #66FFCC;
+	font-weight: bold;
+	font-size: 17px;
+	padding: 2px;
+	width: 154px;
+}
+
+.offerPicture {
+	padding: 2px;
+	margin: auto;
+}
+.undernote {
+	font-size: 11px;
+	padding: 2px;
+	width: 154px;
+}
+.secondColumn {
+	width: 380px;
+	padding: 10px;
+	float: left;
+}
+.description1 {
+	background-color: #66FFCC;
+	font-weight: bold;
+	font-size: 17px;
+	padding: 2px;
+	width: 380px;
+}
