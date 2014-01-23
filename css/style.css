@@ -5,7 +5,10 @@ div{
 .left {
 	float: left;
 }
-
+.container {
+	margin: 3px auto;
+	width: 798px;
+}
 .content {
 	width: 574px;
 	float: left;
@@ -17,16 +20,34 @@ div{
 .menu {
 	height: 1000px;
 	background-color: #DA202C;
+	width: 220px;
 }
 .top {
-	height: 280px;
+	height: 120px;
 	background-color: #DA202C;
 }
+.topmenulist {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding-left: 20px;
+}
 .topmenu {
-	height: 40px;
+	height: 20px;
 	border-top: 1px solid white;
 	border-left: 1px solid white;
+	margin-top: 33px;
 }
+.topmenulink {
+	display: inline;
+	padding-right: 20px;
+	text-transform:uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Arial;
+	letter-spacing: 2px;
+}
+
+
 ul {
 	color: white;
 }
@@ -44,9 +65,27 @@ p a {
 	color: white;	
 }
 
-.container {
-	margin: 3px auto;
-	width: 1000px;
+.info {
+	padding-left: 10px;
+	font-size: 11px;
+	text-transform:uppercase;
+	font-family: Arial;
+	letter-spacing: 4px;
+	font-weight: bold;
+}
+.infomenu {
+	padding-left: 10px;
+	font-size: 11px;
+	font-family: Verdana;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-bottom: 1px dotted white;
+}
+.infomenulist {
+	padding-left: 10px;
+	font-family: Verdana;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
 body{
@@ -60,41 +99,38 @@ body{
 
 .firstColumn {
 	width: 154px;
-	padding: 10px;
-	/*display: inline-block;*/
-	float: left;
 }
 
 .offer {
-	width: 154px;
-	padding: 10px;
 }
+
 .description {
 	background-color: #66FFCC;
 	font-weight: bold;
-	font-size: 17px;
+	font-size: 12px;
 	padding: 2px;
-	width: 154px;
+	text-transform:uppercase;
+	font-family: Arial;
+	letter-spacing: 2px;
 }
 
+
 .offerPicture {
-	padding: 2px;
+	display:block;
 	margin: auto;
+	padding: 3px;
 }
 .undernote {
 	font-size: 11px;
 	padding: 2px;
 	width: 154px;
 }
-.secondColumn {
-	width: 380px;
+.column {
 	padding: 10px;
-	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
 }
-.description1 {
-	background-color: #66FFCC;
-	font-weight: bold;
-	font-size: 17px;
-	padding: 2px;
-	width: 380px;
+
+.secondColumn {
+	width: 370px;
 }
