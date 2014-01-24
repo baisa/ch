@@ -96,14 +96,9 @@ body{
 	width: 574px;
 	clear: both;
 }
-
 .firstColumn {
 	width: 154px;
 }
-
-.offer {
-}
-
 .description {
 	background-color: #66FFCC;
 	font-weight: bold;
@@ -113,8 +108,6 @@ body{
 	font-family: Arial;
 	letter-spacing: 2px;
 }
-
-
 .offerPicture {
 	display:block;
 	margin: auto;
@@ -123,14 +116,28 @@ body{
 .undernote {
 	font-size: 11px;
 	padding: 2px;
-	width: 154px;
 }
 .column {
 	padding: 10px;
 	margin-top: 10px;
 	margin-left: 5px;
 }
-
+.double {
+	display: inline-block;
+	clear: both;
+	width: 370px;
+}
+.doubleundernote {
+	font-size: 11px;
+	padding: 2px;
+	float: left;
+	width: 254px;
+}
+.doublePicture {
+	padding: 1px;
+	width: 106px;
+	float: left;
+}
 .secondColumn {
 	width: 370px;
 }
