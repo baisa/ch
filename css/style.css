@@ -1,7 +1,6 @@
 div{
 	display: block;
 }
-
 .left {
 	float: left;
 }
@@ -17,10 +16,24 @@ div{
     clear: both;
 }
 
+.hidden { 
+	display: none; 
+}
 .menu {
 	height: 1000px;
 	background-color: #DA202C;
 	width: 220px;
+}
+.slideshow {
+	height: 184px;
+}
+.pictureTitle {
+	font-size: 36px;
+	color: white;
+	padding-left: 10px;
+	padding-top: 100px;
+	font-family: Arial;
+	text-shadow: 1px 1px 1px #444;
 }
 .top {
 	height: 120px;
@@ -46,16 +59,12 @@ div{
 	font-family: Arial;
 	letter-spacing: 2px;
 }
-
-
 ul {
 	color: white;
 }
-
 li {
 	list-style-type: none;
 }
-
 li a {
 	text-decoration: none;
 	color: white;	
@@ -64,7 +73,6 @@ p a {
 	text-decoration: none;
 	color: white;	
 }
-
 .info {
 	padding-left: 10px;
 	font-size: 11px;
@@ -87,7 +95,6 @@ p a {
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
-
 body{
 	margin: auto;
 }
